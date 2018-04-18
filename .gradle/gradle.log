@@ -1,0 +1,127 @@
+This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
+
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev UP-TO-DATE
+:downloadClient SKIPPED
+:downloadServer SKIPPED
+:splitServerJar SKIPPED
+:mergeJars SKIPPED
+:applyBinaryPatches SKIPPED
+:extractDependencyATs SKIPPED
+:extractMcpData SKIPPED
+:extractMcpMappings SKIPPED
+:genSrgs SKIPPED
+:deobfMcMCP SKIPPED
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+:processResources
+:classes
+:jar
+:extractNatives SKIPPED
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 905/1283   70%
+:makeStart SKIPPED
+:runClient
+[10:39:15] [main/INFO]: Extra: []
+[10:39:15] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/senor/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:39:15] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:39:15] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:39:15] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:39:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:39:15] [main/INFO]: Forge Mod Loader version 14.23.3.2669 for Minecraft 1.12.2 loading
+[10:39:15] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_162, running on Mac OS X:x86_64:10.13.3, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/jre
+[10:39:15] [main/ERROR]: Apache Maven library folder was not in the format expected: /Users/senor/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar. Using default libraries directory.
+[10:39:15] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:39:15] [main/INFO]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[10:39:15] [main/INFO]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[10:39:15] [main/INFO]: Searching /Users/senor/eclipse-workspace/SenorsStuffMod/run/./mods for mods
+[10:39:15] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:39:15] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:39:15] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:39:15] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:39:15] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:39:15] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:39:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:39:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:39:15] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:39:16] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[10:39:16] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:39:16] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:39:17] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:39:17] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:39:17] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:39:17] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:39:18] [main/INFO]: Setting user: Player55
+[10:39:23] [main/INFO]: LWJGL Version: 2.9.2
+[10:39:24] [main/INFO]: Could not load splash.properties, will create a default one
+[10:39:24] [main/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.13.3
+	Java Version: 1.8.0_162, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 369580880 bytes (352 MB) / 508559360 bytes (485 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.30.14' Renderer: 'Intel(R) HD Graphics 6000'
+[10:39:24] [main/INFO]: MinecraftForge v14.23.3.2669 Initialized
+[10:39:24] [main/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:39:24] [main/INFO]: Replaced 1036 ore ingredients
+[10:39:24] [main/INFO]: Searching /Users/senor/eclipse-workspace/SenorsStuffMod/run/./mods for mods
+[10:39:26] [main/INFO]: Mod senorsstuff is missing the required element 'name'. Substituting senorsstuff
+[10:39:26] [main/INFO]: Forge Mod Loader has identified 5 mods to load
+[10:39:27] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, senorsstuff] at CLIENT
+[10:39:27] [main/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, senorsstuff] at SERVER
+[10:39:28] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:senorsstuff
+[10:39:28] [Thread-3/INFO]: Using alternative sync timing : 200 frames of Display.update took 2872110086 nanos
+[10:39:28] [main/INFO]: Processing ObjectHolder annotations
+[10:39:28] [main/INFO]: Found 1168 ObjectHolder annotations
+[10:39:28] [main/INFO]: Identifying ItemStackHolder annotations
+[10:39:28] [main/INFO]: Found 0 ItemStackHolder annotations
+[10:39:28] [main/INFO]: Configured a dormant chunk cache size of 0
+[10:39:28] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:39:28] [main/INFO]: [com.senorcontento.stuff.SenorsStuff:preInit:43]: Pre-Initializing SenorContento's Stuff
+[10:39:28] [main/INFO]: Applying holder lookups
+[10:39:28] [main/INFO]: Holder lookups applied
+[10:39:28] [main/INFO]: Applying holder lookups
+[10:39:28] [main/INFO]: Holder lookups applied
+[10:39:28] [main/INFO]: Applying holder lookups
+[10:39:28] [main/INFO]: Holder lookups applied
+[10:39:28] [main/INFO]: Applying holder lookups
+[10:39:28] [main/INFO]: Holder lookups applied
+[10:39:28] [main/INFO]: Injecting itemstacks
+[10:39:28] [main/INFO]: Itemstack injection complete
+[10:39:28] [Forge Version Check/INFO]: [forge] Found status: AHEAD Target: null
+[10:39:30] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[10:39:30] [Thread-4/INFO]: Initializing LWJGL OpenAL
+[10:39:30] [Thread-4/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:39:30] [Thread-4/INFO]: OpenAL initialized.
+[10:39:30] [Sound Library Loader/INFO]: Sound engine started
+[10:39:34] [main/INFO]: Max texture size: 16384
+[10:39:34] [main/INFO]: Created: 512x512 textures-atlas
+[10:39:37] [main/INFO]: Applying holder lookups
+[10:39:37] [main/INFO]: Holder lookups applied
+[10:39:37] [main/INFO]: [com.senorcontento.stuff.SenorsStuff:init:35]: Initializing SenorContento's Stuff
+[10:39:37] [main/INFO]: [com.senorcontento.stuff.SenorsStuff:init:36]: DIRT BLOCK >> tile.dirt
+[10:39:37] [main/INFO]: Injecting itemstacks
+[10:39:37] [main/INFO]: Itemstack injection complete
+[10:39:37] [main/INFO]: [com.senorcontento.stuff.SenorsStuff:postInit:48]: Post-Initializing SenorContento's Stuff
+[10:39:37] [main/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[10:39:38] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[10:39:46] [main/INFO]: Stopping!
+[10:39:46] [main/INFO]: SoundSystem shutting down...
+AL lib: (WW) FreeDevice: (0x7fa469d50c00) Deleting 3 Buffer(s)
+[10:39:47] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 46.68 secs
