@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "senorsstuff:fast_cobble"},
+        "inventory": { "model": "senorsstuff:fast_cobble"}
+    }
+}

@@ -1,15 +1,16 @@
 [
 {
-  "modid": "EditDebug",
-  "name": "Edit Debug Screen",
-  "description": "Allows for modifying the Debug Screen to Enhance Gameplay!!!",
+  "modid": "senorsstuff",
+  "name": "Señor Contento's Stuff",
+  "description": "Introduces random items and blocks from Señor Contento!!!",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "https://senorcontento.com/",
+  "url": "https://senorstuff.senorcontento.com/",
+  "updateUrl": "https://senorstuff.senorcontento.com/update",
+  "updateJSON": "https://senorstuff.senorcontento.com/update.json",
   "authorList": ["Señor Contento"],
   "credits": "",
-  "logoFile": "",
+  "logoFile": "assets/textures/logo.png",
   "screenshots": [],
   "dependencies": []
 }
