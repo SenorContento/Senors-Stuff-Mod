@@ -20,18 +20,22 @@ public class SenorsStuff
 	public static final String MODID = "senorsstuff";
 	public static final String NAME = "SenorContento's Stuff";
 	public static final String VERSION = "1.0";
-
+	public static SenorsStuffCreativeTab tab;
+	
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
 		System.out.println("Initializing " + SenorsStuff.NAME);
 		System.out.println(Blocks.DIRT.getLocalizedName() + ": " + Blocks.DIRT.getUnlocalizedName());
-		SenorsStuffCreativeTab tab = new SenorsStuffCreativeTab(CreativeTabs.getNextID()); //Initializes The Tab for Creative Mode
+		
+		tab = new SenorsStuffCreativeTab(CreativeTabs.getNextID()); //Initializes The Tab for Creative Mode
+		addBlocksAndItemsToTabs(); // Needs To Be Called After Creation Of All Tabs
 	}
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println("Pre-Initializing " + SenorsStuff.NAME);
+		
 		MinecraftForge.EVENT_BUS.register(new SenorsStuff());
 	}
 
@@ -51,5 +55,20 @@ public class SenorsStuff
 	public void registerItems(RegistryEvent.Register<Item> event) {
 		RegisterItems registerItem = new RegisterItems();
 		registerItem.register(event);
+	}
+	
+	public void addBlocksAndItemsToTabs() {
+		addBlocksToTabs();
+		addItemsToTabs();
+	}
+	
+	public void addBlocksToTabs() {
+		AddBlocksToTab addTab = new AddBlocksToTab();
+		addTab.addToTab(tab); // Can include multiple tabs here.
+	}
+	
+	public void addItemsToTabs() {
+		AddItemsToTab addTab = new AddItemsToTab();
+		addTab.addToTab(tab); // Can include multiple tabs here.
 	}
 }

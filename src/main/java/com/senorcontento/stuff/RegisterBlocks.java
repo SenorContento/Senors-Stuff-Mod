@@ -4,6 +4,7 @@ import com.senorcontento.stuff.blocks.Clock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.event.RegistryEvent;
 
@@ -24,7 +25,6 @@ public class RegisterBlocks {
 		FastCobble.setRegistryName(SenorsStuff.MODID + ":" + "fast_cobble");
 		//System.out.println("COBBLE > " + Blocks.COBBLESTONE.getUnlocalizedName().substring(5));
 		FastCobble.setUnlocalizedName(Blocks.COBBLESTONE.getUnlocalizedName().substring(5)); //FastCobble.getRegistryName().toString());
-		//FastCobble.setCreativeTab(tab);
 		
 		System.out.println("Register Block: " + FastCobble.toString());
 		return FastCobble;
