@@ -17,7 +17,8 @@ public class AddBlocksToTab {
 	public static Block Clock = null;
 	
 	public void addToTab(CreativeTabs tab) {
-		Block fc = FastCobble(tab);
+		FastCobble(tab);
+		Clock(tab);
 	}
 	
 	public Block FastCobble(CreativeTabs tab) {
@@ -27,10 +28,10 @@ public class AddBlocksToTab {
 		return FastCobble;
 	}
 	
-	/*public Block Clock() {
+	public Block Clock(CreativeTabs tab) {
 		Clock = Block.getBlockFromName(SenorsStuff.MODID + ":" + "clock");
 		Clock.setCreativeTab(tab);
 		
-		return clock;
-	}*/
+		return Clock;
+	}
 }

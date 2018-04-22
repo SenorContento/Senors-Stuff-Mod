@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "senorsstuff:clock"},
+        "inventory": { "model": "senorsstuff:clock"}
+    }
+}

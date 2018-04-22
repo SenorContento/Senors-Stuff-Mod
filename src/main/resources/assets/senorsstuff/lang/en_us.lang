@@ -1,2 +1,4 @@
-tile.senorsstuff:fast_cobble.name=Cobblestone
+tile.senorsstuff:clock.name=Clock
+tile.senorsstuff:clock.message=Tick Tick Boom
+tile.senorsstuff:fast_cobble.message=The Fastest Cobble In Minecraft
 tab.senorsstuff.name=Señor's Stuff

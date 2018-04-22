@@ -10,13 +10,16 @@ import net.minecraftforge.event.RegistryEvent;
 
 public class RegisterBlocks {
 	public static Block FastCobble = null;
+	public static Clock Clock = null;
 	
 	public void register(RegistryEvent.Register<Block> event) {
 		//event.getRegistry().registerAll(clock);//, block2, ...);
 		
-		Block fc = FastCobble();
+		// Initialize These Blocks
+		FastCobble();
+		Clock();
 		
-		event.getRegistry().registerAll(fc);
+		event.getRegistry().registerAll(FastCobble, Clock);
 	}
 	
 	public Block FastCobble() {
@@ -30,9 +33,9 @@ public class RegisterBlocks {
 		return FastCobble;
 	}
 	
-	/*public Block Clock() {
-		Clock clock = new Clock();
+	public Block Clock() {
+		Clock = new Clock(SenorsStuff.MODID + ":" + "clock", Material.TNT);
 		
-		return clock;
-	}*/
+		return Clock;
+	}
 }
